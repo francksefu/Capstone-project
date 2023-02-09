@@ -132,4 +132,5 @@ const but = document.querySelector('.but');
 but.addEventListener('click', () => {
   document.querySelector('#k').style.display = 'block';
   document.querySelector('.noned').style.display = 'block';
+  but.style.display = 'none';
 });

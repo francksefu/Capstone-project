@@ -121,17 +121,17 @@
   background-color: rgba(236, 82, 66, 0.5);
   width: 100%;
   height: 100%;
-  padding-top: 25%;
+  padding-top: 35%;
 }
 
 .backimage > div > div,
 .nous > div > div {
-  height: 50%;
-  
+  height: auto;
 }
 
 .imga {
-  height: 120px;
+  height: 100px;
+  width: 100px;
 }
 
 .pWidth {
@@ -247,6 +247,14 @@
   .nous {
     width: 75%;
     height: 300px;
+  }
+
+  .backimage > div,
+  .nous > div {
+    background-color: rgba(236, 82, 66, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 25%;
   }
 
   .mar {
