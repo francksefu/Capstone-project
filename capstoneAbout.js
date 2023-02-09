@@ -1,4 +1,3 @@
-const home = document.querySelector('#home');
 const homeMenu = document.querySelector('#homeVer');
 const aboutMenu = document.querySelector('#aboutVer');
 const cross = document.querySelector('#cross');

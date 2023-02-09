@@ -38,7 +38,7 @@ const arrayAgent = [
     free university of the countries of the great lakes where he studied civil engineering`,
   },
   {
-    imgSrc: 'photo/f1.jpeg', 
+    imgSrc: 'photo/f1.jpeg',
     h6Name: 'Bisimwa Francklin',
     pDescription: `Bisimwa Francklin studied at Wima school in the branch of math-physics and continued his university studies at the 
     free university of the countries of the great lakes where he studied civil engineering`,
@@ -90,7 +90,6 @@ function peopleTalking() {
       const em = document.createElement('em');
       const hrNormal = document.createElement('hr');
       const small = document.createElement('small');
-      
       div21.classList.add('col-md-6', 'd-flex', 'bd-highlight', 'bg-transparent');
       div211.classList.add('p-2', 'w-25', 'bd-highlight', 'bg-transparent');
       img2111.classList.add('img-fluid', 'bg-transparent', 'pb-3', 'hautimg');
