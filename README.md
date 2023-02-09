@@ -60,8 +60,9 @@ I also used bootstrap to strengthen the css and javascript part to make the proj
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
-> 
+>
 - [Live Demo Link](https://francksefu.github.io/Capstone-project/index.html)
+-[Live video Demo Link](https://www.loom.com/share/63d6e5bb63754d23a6ca83d337e75db1)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
