@@ -217,6 +217,7 @@
     margin-left: 2px;
     margin-right: 2px;
   }
+
   .gauche {
     margin-left: 7.5%;
   }
@@ -259,5 +260,6 @@
   .mar {
     margin-top: 12.5%;
   }
-
+  /* that all for desktop*/
 }
+/* that all for desktop and mobile*/
