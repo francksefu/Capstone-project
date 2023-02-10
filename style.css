@@ -78,7 +78,7 @@ section#partie1 {
 
 h1.rougePhoto {
   -webkit-background-clip: text;
-  background-clip: text;
+  background-clip: 'text';
   background-image: url(photo/title.png);
   background-size: cover;
   color: transparent;
