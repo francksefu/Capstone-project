@@ -76,7 +76,7 @@ section#partie1 {
   background-color: var(--gry-color);
 }
 
-.rougePhoto {
+h1.rougePhoto {
   -webkit-background-clip: text;
   background-clip: text;
   background-image: url(photo/title.png);
