@@ -1,0 +1,301 @@
+:root {
+  --gry-color: #d3d3d3;
+  --red-color: #ec5242;
+  --black-color: #272a31;
+}
+
+@font-face {
+  font-family: Lato;
+  font-weight: bold;
+  src: url('./Lato/fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: Lato;
+  font-weight: normal;
+  src: url('./Lato/fonts/Lato-Heavy.ttf');
+}
+
+* {
+  font-family: Lato, sans-serif;
+  color: var(--black-color);
+}
+
+div#home {
+  padding-top: 0;
+}
+
+section#partie1 {
+  background-image: url(photo/bg-desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.partie2 {
+  background-image: url(photo/Prog-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.partieAb {
+  background-image: url(photo/aboutPart.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#cross,
+#about,
+.pc,
+#fixD {
+  display: none;
+}
+
+#fixM {
+  position: fixed;
+  top: 0;
+}
+
+#home {
+  padding-top: 10%;
+}
+
+.noir {
+  background-color: var(--black-color);
+}
+
+.gry {
+  color: var(--gry-color);
+  font-weight: normal;
+}
+
+.gryBg {
+  background-color: var(--gry-color);
+}
+
+.rougeBge {
+  background-image: url("photo/title.png");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rouge {
+  color: var(--red-color);
+  font-weight: bold;
+}
+
+.rougesimple {
+  color: var(--red-color);
+}
+
+.grytransparent {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bgrouge {
+  background-color: var(--red-color);
+}
+
+.hrrouge {
+  width: 30px;
+  border: 2px solid var(--red-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hrnormal {
+  width: 20px;
+}
+
+.bordure {
+  border: 2px solid var(--gry-color);
+}
+
+.noirfont {
+  color: var(--black-color);
+}
+
+.hauteur {
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hautimg {
+  height: auto;
+}
+
+.logo {
+  height: 300px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.backimage {
+  background-image: url(photo/e77.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.nous {
+  background-image: url(photo/W1photoAgent.jpeg);
+  background-size: contain;
+  width: 100%;
+  height: 300px;
+}
+
+.backimage > div,
+.nous > div {
+  background-color: rgba(236, 82, 66, 0.5);
+  width: 100%;
+  height: 100%;
+  padding-top: 36%;
+}
+
+.backimage > div > div,
+.nous > div > div {
+  height: auto;
+}
+
+.imga {
+  height: 100px;
+  width: 100px;
+}
+
+.pWidth {
+  margin-left: auto;
+}
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+.noned {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hautimg {
+    height: 200px;
+  }
+
+  .pc {
+    display: block;
+  }
+
+  nav.pc {
+    height: 35px;
+  }
+
+  #fixM {
+    display: none;
+  }
+
+  #fixD {
+    display: block;
+    height: 10%;
+  }
+
+  #photo {
+    width: 100px;
+    height: 65px;
+  }
+
+  .padLeft {
+    margin-left: 20%;
+  }
+
+  .navPad {
+    height: 100%;
+  }
+
+  .margA {
+    height: 5%;
+    margin-top: 2.5%;
+    margin-left: 7%;
+  }
+
+  .borderRouge {
+    border: 4px solid var(--red-color);
+  }
+
+  .margeB {
+    padding-left: 10%;
+  }
+
+  .pWidth {
+    width: 45%;
+    margin-left: 10%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .main {
+    width: 16%;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .gauche {
+    margin-left: 7.5%;
+  }
+
+  .noned {
+    display: block;
+  }
+
+  .aboutdiscours {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .logo {
+    height: 270px;
+    width: 270px;
+    background-color: transparent;
+  }
+
+  .backimage {
+    width: 75%;
+    height: 300px;
+    margin-left: 25%;
+  }
+
+  .nous {
+    width: 75%;
+    height: 300px;
+  }
+
+  .backimage > div,
+  .nous > div {
+    background-color: rgba(236, 82, 66, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 25%;
+  }
+
+  .mar {
+    margin-top: 12.5%;
+  }
+
+  .padTop {
+    height: 100vh;
+  }
+}
