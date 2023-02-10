@@ -76,12 +76,10 @@ section#partie1 {
   background-color: var(--gry-color);
 }
 
-h1.rougePhoto {
+.rougeBge {
+  background-image: url("photo/title.png");
   -webkit-background-clip: text;
-  background-clip: 'text';
-  background-image: url(photo/title.png);
-  background-size: cover;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .rouge {
