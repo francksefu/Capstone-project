@@ -77,10 +77,10 @@ section#partie1 {
 }
 
 .rougePhoto {
-  background-image: url(photo/title.png);
-  background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
+  background-image: url(photo/title.png);
+  background-size: cover;
   color: transparent;
 }
 
