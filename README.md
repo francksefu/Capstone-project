@@ -109,10 +109,17 @@ Feel free to check the [issues page](https://github.com/francksefu/Capstone-proj
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- ACKNOWLEDGEMENTS -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-> I wanna give thank to Microverse
-<!-- LICENSE -->
 
+> Give credit to everyone who inspired your codebase.
+
+I wanna give thanks to [Cindy Shin](https://www.behance.net/adagio07), the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 ## 📝 License <a name="license"></a>
-This project is [CreativeCommons](https://creativecommons.org/licenses/by-nc/4.0/legalcode) licensed.
+
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -17,9 +17,35 @@
 }
 
 * {
-  background-color: var(--gry-color);
+  /*background-color: var(--gry-color);*/
   font-family: Lato, sans-serif;
   color: var(--black-color);
+}
+
+div#home {
+  padding-top: 0;
+}
+
+section#partie1 {
+  background-image: url(photo/bg-desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.partie2 {
+  background-image: url(photo/Prog-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.partieAb {
+  background-image: url(photo/aboutPart.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 #cross,
@@ -34,8 +60,7 @@
   top: 0;
 }
 
-#home,
-#aboutM {
+#home {
   padding-top: 10%;
 }
 
@@ -46,6 +71,18 @@
 .gry {
   color: var(--gry-color);
   font-weight: normal;
+}
+
+.gryBg {
+  background-color: var(--gry-color);
+}
+
+.rougePhoto {
+  background-image: url(photo/title.png);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .rouge {
@@ -188,7 +225,7 @@
   .margA {
     height: 5%;
     margin-top: 2.5%;
-    margin-left: 5%;
+    margin-left: 7%;
   }
 
   .borderRouge {
@@ -196,12 +233,12 @@
   }
 
   .margeB {
-    padding-left: 20%;
+    padding-left: 10%;
   }
 
   .pWidth {
-    width: 500px;
-    margin-left: 20%;
+    width: 45%;
+    margin-left: 10%;
   }
 
   .mobile {
@@ -259,5 +296,9 @@
 
   .mar {
     margin-top: 12.5%;
+  }
+
+  .padTop {
+    height: 100vh;
   }
 }
