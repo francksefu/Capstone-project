@@ -17,7 +17,6 @@
 }
 
 * {
-  /*background-color: var(--gry-color);*/
   font-family: Lato, sans-serif;
   color: var(--black-color);
 }
